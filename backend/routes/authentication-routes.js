@@ -39,5 +39,11 @@ router.post("/login", (req, res, next) => {
     //   categories { error, success, warning, info }
   });
 
+  router.delete("/delete-account", (req, res, next) => {
+    res.send({ type: "DELETE", endpoint: "DELETE", message: req.body.message });
+    //   TODO delete users
+  });
+  
+
 
   module.exports = router;
