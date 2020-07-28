@@ -1,0 +1,25 @@
+{
+  "name": "dhs",
+  "version": "1.0.0",
+  "description": "Blog",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  },
+  "scripts": {
+    "run-server": "nodemon backend/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nathalie123321/DHS.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nathalie123321/DHS/issues"
+  },
+  "homepage": "https://github.com/nathalie123321/DHS#readme"
+}
