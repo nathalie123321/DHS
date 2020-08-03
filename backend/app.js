@@ -13,9 +13,8 @@ app.use(express.json());
 
 app.get('/', (req, res) => res.send("welcome to meh"));
 
-app.use('/profile', require('./routes/authentication-routes'));
-app.use('/blog', require("./routes/blog-routes"));
-
+app.use("/auth", require("./routes/authentication-routes"));
+app.use("/blog", require("./routes/blog-routes"));
 app.listen(port, () =>
   console.log(`Example app listening at http://localhost:${port}`)
 );
