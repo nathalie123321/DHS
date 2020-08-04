@@ -7,9 +7,6 @@
     "express": "^4.17.1",
     "mongoose": "^5.9.26"
   },
-  "devDependencies": {
-    "nodemon": "^2.0.4"
-  },
   "scripts": {
     "run-server": "nodemon backend/app.js"
   },
@@ -22,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/nathalie123321/DHS/issues"
   },
-  "homepage": "https://github.com/nathalie123321/DHS#readme"
+  "homepage": "https://github.com/nathalie123321/DHS#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
 }
