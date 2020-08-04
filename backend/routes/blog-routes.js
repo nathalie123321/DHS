@@ -14,7 +14,7 @@ blog.get("/get-user", (req, res, next) => {
 
   else {
     res.status(400).json({ 
-      message:"get your shit together"
+      message:"Get your shit together, cant you even spell your own loggin?"
     });
   }
 });
