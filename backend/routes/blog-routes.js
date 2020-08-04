@@ -21,8 +21,8 @@ blog.get("/get-user", (req, res, next) => {
 
 blog.delete("/delete-user/:user", (req, res, next) => {
   const user = req.params.user;
-  if (user == "Del"){
 
+  if (user == "Del"){
     res.status(200).json({ 
       message:"You have deleted your account"
     });
